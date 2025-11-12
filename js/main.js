@@ -1,5 +1,9 @@
 $(document).ready(function () {
-  $(".hamburger").click(function () {
+  $(".hamburger_1").click(function () {
+    $(this).toggleClass("active");
+  });
+
+  $(".hamburger_2").click(function () {
     $(this).toggleClass("active");
   });
 });
