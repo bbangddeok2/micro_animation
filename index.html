@@ -14,11 +14,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
@@ -66,6 +72,115 @@
         <div class="con ssg">8</div>
         <div class="con kia">9</div>
         <div class="con kt">10</div>
+      </section>
+
+      <section class="insta">
+        <header>
+          <div class="logo">
+            <img src="img/insta_logo.png" alt="insta" />
+          </div>
+          <div class="icon_wrap"></div>
+        </header>
+        <div class="story_wrap">
+          <div class="con_story insta_profile">
+            <div class="story_img">
+              <img src="img/story_1.jpg" alt="insta" />
+            </div>
+            <span>내스토리</span>
+          </div>
+          <div class="con_story story_1">
+            <div class="story_img">
+              <img src="img/story_2.jpg" alt="토이스토리1" />
+            </div>
+            <span>토이스토리1</span>
+          </div>
+          <div class="con_story story_2">
+            <div class="story_img">
+              <img src="img/story_3.jpg" alt="토이스토리2" />
+            </div>
+            <span>토이스토리2</span>
+          </div>
+          <div class="con_story story_3">
+            <div class="story_img">
+              <img src="img/story_4.jpg" alt="토이스토리3" />
+            </div>
+            <span>토이스토리3</span>
+          </div>
+        </div>
+        <div class="con_wrap_insta">
+          <div class="con_top">
+            <div class="con_profile">
+              <div class="con_profile_img">
+                <img src="img/story_5.jpg" alt="토이스토리5" />
+              </div>
+              <span>토이스토리5</span>
+            </div>
+            <div class="follow_wrap">
+              <div class="follow_btn">
+                <span>팔로우</span>
+              </div>
+              <div class="menu_btn">점</div>
+            </div>
+          </div>
+          <div class="mid_con">
+            <div class="swiper instaSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/mid_con_2.jpg" alt="토이스토리5" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/mid_con_1.jpg" alt="토이스토리5" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/mid_con_3.jpg" alt="토이스토리5" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="bottom_con">
+            <div class="interactive_wrap">
+              <div class="left_interactive_wrap">
+                <div class="heart">
+                  <div class="heart_img">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                    >
+                      <path
+                        d="M0 5.85223C0 10.7152 4.02 13.3062 6.962 15.6262C8 16.4442 9 17.2152 10 17.2152C11 17.2152 12 16.4452 13.038 15.6252C15.981 13.3072 20 10.7152 20 5.85323C20 0.991225 14.5 -2.45977 10 2.21623C5.5 -2.45977 0 0.989226 0 5.85223Z"
+                        fill="#F1F1F1"
+                      />
+                    </svg>
+                  </div>
+                  <span>2,472</span>
+                </div>
+                <div class="speech_bubble">
+                  <div class="speech_bubble_img">말풍선</div>
+                  <span>82</span>
+                </div>
+                <div class="repost">
+                  <div class="repost_img">
+                    <img src="img/repost.png" alt="repost" />
+                    <img class="check" src="img/check.png" alt="check" />
+                  </div>
+                  <span>22</span>
+                </div>
+                <div class="share">
+                  <div class="share_img">공유</div>
+                </div>
+              </div>
+              <div class="right_interactive_wrap">
+                <div class="save">
+                  <div class="save_img">저장</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     <!-- 토글스위치 만들어야함 <br />
